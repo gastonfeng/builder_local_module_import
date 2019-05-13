@@ -62,7 +62,7 @@ class ModuleImportLocal(models.TransientModel):
                     'module_id': module.id,
                     'name': model.name,
                     'model': model.model,
-                    'osv_memory': model.osv_memory,
+                    'transient': model.transient,
                 })
             model_map[model.model] = new_model
 
@@ -162,7 +162,7 @@ class ModuleImportLocal(models.TransientModel):
                         'selection': field.selection,
                         'required': field.required,
                         'readonly': field.readonly,
-                        'select_level': field.select_level,
+                        # 'select_level': field.select_level,
                         'translate': field.translate,
                         'size': field.size,
                         'on_delete': field.on_delete,

@@ -9,7 +9,7 @@ class ModuleImportLocal(models.TransientModel):
     module_id = fields.Many2one('ir.module.module', 'System Module', required=True)
 
 
-    @api.one
+    # @api.one
     def action_import(self):
         """
         :type self: ModuleImport
@@ -144,7 +144,7 @@ class ModuleImportLocal(models.TransientModel):
 
         return results
 
-    @api.one
+    # @api.one
     def _create_model_fields(self, module, model_items, model_map, relations_only=True):
 
         _review_models = []

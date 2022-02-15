@@ -25,7 +25,7 @@
         <record model="ir.actions.act_window" id="act_builder_ir_module_module_import_local_wizard">
             <field name="name">Module Import</field>
             <field name="res_model">builder.ir.module.module.import.local.wizard</field>
-            <field name="view_type">form</field>
+<!--            <field name="view_type">form</field>-->
             <field name="view_mode">form</field>
             <field name="target">new</field>
         </record>

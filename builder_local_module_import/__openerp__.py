@@ -37,6 +37,7 @@ Module Builder Local Module Import
     'data': [
         'wizard/module_import_view.xml',
         'views/menu.xml',
+        'ir.model.access.csv'
     ],
     'installable': True,
     'application': False,

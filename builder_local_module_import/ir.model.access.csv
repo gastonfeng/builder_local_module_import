@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_builder_ir_mixin_polymorphism_superclass_base25.group_user,ir_mixin_polymorphism_superclass builder_base.group_user,model_builder_ir_module_module_import_local_wizard,base.group_user,1,1,1,1
